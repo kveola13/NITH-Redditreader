@@ -1,0 +1,13 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{post.data.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <h2>{{post.data.title}}</h2>
+    <img [src] = "post.data.preview.images[0].source.url">
+    <p>By: {{post.data.author}}</p>
+</ion-content>
